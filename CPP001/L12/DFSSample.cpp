@@ -62,7 +62,7 @@ int main() {
 
     cin >> sx >> sy >> ex >> ey;
     vis[sx][sy] = true;
-    dfs(sx, sy, 0);
+    dfs(sx, sy, 1);
     cout << minn << endl;
 
     return 0;
